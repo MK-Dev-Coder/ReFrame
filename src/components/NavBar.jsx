@@ -4,6 +4,7 @@ const LINKS = [
   ["/", "Home"],
   ["/about", "About"],
   ["/reconstructions", "Reconstructions"],
+  ["/results", "Results"],
 ];
 
 export default function NavBar() {

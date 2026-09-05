@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar.jsx";
 import Footer from "./components/Footer.jsx";
 import Home from "./pages/Home.jsx";
 import About from "./pages/About.jsx";
+import Results from "./pages/Results.jsx";
 import Reconstructions from "./pages/Reconstructions.jsx";
 
 /* reset scroll on route change — unless we're jumping to a #hash anchor */
@@ -26,6 +27,7 @@ export default function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
+          <Route path="/results" element={<Results />} />
           <Route path="/reconstructions" element={<Reconstructions />} />
         </Routes>
       </main>

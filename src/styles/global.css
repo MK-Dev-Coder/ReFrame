@@ -45,7 +45,8 @@ button:focus-visible,
 .fill-svg { width: 100%; height: 100%; display: block; }
 .fill-img { width: 100%; height: 100%; object-fit: cover; display: block; }
 
-/* --- nav --- */
+/* --- nav ---
+*/
 .nav {
   position: sticky; top: 0; z-index: 40;
   display: flex; align-items: baseline; justify-content: space-between;
@@ -186,12 +187,61 @@ button:focus-visible,
   color: var(--gold); margin-bottom: 3px;
 }
 .data-v { font-size: 14.5px; line-height: 1.5; }
+.results-action { width: 100%; margin: 18px 0 14px; text-align: center; }
 .prose h3 {
   font-family: var(--display); font-weight: 600; font-size: 23px;
   margin: 34px 0 10px;
 }
 .prose h3:first-child { margin-top: 0; }
 .prose p { max-width: 64ch; color: var(--ink); }
+.results-prose { max-width: 60ch; }
+.results-prose p {
+  font-size: 16.5px;
+  line-height: 1.8;
+}
+.results-prose p + p { margin-top: 22px; }
+.recon-initial-prompt {
+  max-width: 760px;
+  margin: 58px 0 0 auto;
+  padding-top: 24px;
+  border-top: 1px solid var(--hairline);
+}
+.recon-initial-prompt-label {
+  font-family: var(--mono);
+  font-size: 10px !important;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--gold) !important;
+  margin-bottom: 12px;
+}
+.recon-initial-prompt blockquote {
+  padding: 18px 20px;
+  border-left: 2px solid var(--gold);
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--display);
+  font-size: 21px;
+  font-style: italic;
+  line-height: 1.5;
+}
+.results-chart {
+  margin-top: 64px;
+  padding-top: 28px;
+  border-top: 1px solid var(--hairline);
+}
+.results-chart img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border: 1px solid var(--hairline);
+}
+.results-chart figcaption {
+  margin-top: 12px;
+  font-family: var(--mono);
+  font-size: 10.5px;
+  letter-spacing: 0.05em;
+  color: var(--ink-dim);
+}
 .colophon {
   margin-top: 44px; padding: 16px 18px;
   border-left: 2px solid var(--oxblood);

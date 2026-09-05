@@ -86,6 +86,23 @@ export default function Reconstructions() {
           </div>
         </section>
       ))}
+
+      <section className="recon-initial-prompt" aria-labelledby="initial-prompt">
+        <p id="initial-prompt" className="recon-initial-prompt-label">
+          Initial prompt used
+        </p>
+        <blockquote>
+          Restore the damaged portrait conservatively in the style of late 19th-
+          to early 20th-century Munich School academic realism. Preserve the
+          original composition, sitter’s identity, facial structure, pose,
+          brushwork, canvas texture, muted palette, and dark tonal atmosphere.
+          Maintain natural oil-paint texture, soft chiaroscuro, subdued earth
+          tones, and the serious psychological character typical of academic
+          Realist portraiture. Repair cracks, scratches, and fading. Do not
+          beautify, sharpen excessively, recolour aggressively, or invent new
+          decorative details.
+        </blockquote>
+      </section>
     </div>
   );
 }
